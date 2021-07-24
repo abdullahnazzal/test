@@ -1,0 +1,74 @@
+/* table{
+    background-color: red;
+    border: 2px solid black;
+}
+img{
+    width: 300px;
+    height: 300px;
+} */
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background-color: gray;
+    
+}
+header h1{
+    /* float: left; */
+    text-align: center;
+}
+header nav ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* float: right; */
+}
+li{
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+    display: inline-block;
+    /* float: right; */
+}
+/* END OF HEADER */
+/* START THE MAIN */
+main{
+    clear: both;
+    position: relative;
+}
+form{
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin-top: 150px;
+    clear: both;
+    width: 500px;
+    height: 800px;
+    background-color: gray;
+}
+form fieldset input,select{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+div{
+    position:absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    margin-top: 150px;
+    width: 500px;
+    height: 800px;
+    background-color: gray;
+}
+#divSub{
+    border: 2px solid red;
+    width: 100%;
+}
+#divSub h1{
+    margin: 10px;
+}
+section{
+    display: inline-block;
+}

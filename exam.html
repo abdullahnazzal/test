@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <title>Articles Posts</title>
+</head>
+<body>
+    <header>
+        <h1>ASCS</h1>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>About</li>
+                <li>Context</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+       
+        <form id="myForm" >
+            <fieldset>
+                <legend>Create article</legend>
+                <label for="author">article Author:</label>
+                <input type="text" id="author" name="author">
+                <br>
+                <label for="Title">article Title:</label>
+                <input type="text" id="title" name="title">
+                <br>
+                <label for="content">content:</label>
+                <input type="text" id="content" name="content">
+                <br> 
+                <label for="subject">subject:</label>
+                <select id="subject" name="subject">
+                    <option value="Coding">Coding</option>
+                    <option value="3D printing">3D printing</option>
+                    <option value="Cyber security">Cyber security</option>
+                    <option value="AI">AI</option>
+                </select>
+                <br> 
+                <label for="day">day:</label>
+                <input type="text" id="day" name="day">
+                <br> 
+                <label for="month">month:</label>
+                <input type="text" id="month" name="month">
+                <br> 
+                <label for="year">year :</label>
+                <input type="text" id="year" name="year">
+                <br> 
+                <input type="submit">
+            </fieldset>
+            
+        </form>
+        <div id="contener">
+            <table id="tableContener">
+
+            </table>
+<br><br><br>
+            <p id="price"></p>
+        </div>
+    </section>
+    </main>
+    <footer></footer>
+    <script src="appExam3.js"></script>
+</body>
+</html>
